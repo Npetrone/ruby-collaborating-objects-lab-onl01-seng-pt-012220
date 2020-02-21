@@ -1,10 +1,10 @@
 class MP3Importer
-  attr_accessor :name
+  attr_accessor :path
   
   @@all = []
   
-  def initialize(name)
-    @name = name
+  def initialize(path)
+    @path = path
     @@all << self
   end
   
