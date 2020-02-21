@@ -17,7 +17,7 @@ class Song
   end
   
   
-  def self.new_by_filename(filen)
+  def self.new_by_filename(file)
     binding.pry
     song_name = file.split(" - ")[1]
     artist = file.split(" - ")[0]
