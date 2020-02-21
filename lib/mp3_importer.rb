@@ -8,6 +8,10 @@ class MP3Importer
     @@all << self
   end
   
+  def files
+    
+  end
+  
   def self.all
     @@all
   end
